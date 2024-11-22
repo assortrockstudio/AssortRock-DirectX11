@@ -1,0 +1,7 @@
+1. EditorUI 계층구조 설정
+  - 루트UI 는 Begin End
+  - ChildUI 는 BeginChild EndChild
+
+2. Comopnent 들을 담당하는 UI 들 설계
+  - ComponentUI 공통 부모 밑으로 상속으로 설계
+  - Inspector UI 의 자식으로 설정, 담당 오브젝트의 각 컴포넌트를 담당, 관련 정보 출력 예정

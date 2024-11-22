@@ -1,0 +1,4 @@
+1. Scripts 엔진에서 분리 완료
+  - Scripts 라이브러리 속성 설정 및 적용 완료
+
+2. ChangeLevel 태스크 추가 중

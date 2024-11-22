@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Default">
+      <UniqueIdentifier>{1c5fbcdb-ed78-486f-8423-6b38fbe4b659}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Manager">
+      <UniqueIdentifier>{acec75c0-42d3-4150-ac3a-4b1d24f1becd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Manager\01. TestLevel">
+      <UniqueIdentifier>{ad289991-c4f3-4697-81e8-a1cd19174af0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Manager\02. EditorMgr">
+      <UniqueIdentifier>{a7c86345-232a-483e-99cd-73fd699e6b55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Manager\02. EditorMgr\GameObjectEx">
+      <UniqueIdentifier>{a70873ab-24ae-4cde-ad5f-1b71dff7ca64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Manager\02. EditorMgr\Scripts">
+      <UniqueIdentifier>{458e2bbc-6874-42dd-86d2-edc083a3781a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Manager\03. ImGuiMgr">
+      <UniqueIdentifier>{504d55d6-5fb9-4577-804d-02d1d9a5f95a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Manager\03. ImGuiMgr\ImGui">
+      <UniqueIdentifier>{2dc78f9b-7158-49e5-8576-438105bf85dd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Client.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="CTestLevel.h">
+      <Filter>01. Manager\01. TestLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="CEditorMgr.h">
+      <Filter>01. Manager\02. EditorMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameObjectEx.h">
+      <Filter>01. Manager\02. EditorMgr\GameObjectEx</Filter>
+    </ClInclude>
+    <ClInclude Include="CEditorCameraScript.h">
+      <Filter>01. Manager\02. EditorMgr\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>01. Manager\03. ImGuiMgr\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>01. Manager\03. ImGuiMgr\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx11.h">
+      <Filter>01. Manager\03. ImGuiMgr\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>01. Manager\03. ImGuiMgr\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>01. Manager\03. ImGuiMgr\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>01. Manager\03. ImGuiMgr\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>01. Manager\03. ImGuiMgr\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>01. Manager\03. ImGuiMgr\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="CImGuiMgr.h">
+      <Filter>01. Manager\03. ImGuiMgr</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Client.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="CTestLevel.cpp">
+      <Filter>01. Manager\01. TestLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="CEditorMgr.cpp">
+      <Filter>01. Manager\02. EditorMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameObjectEx.cpp">
+      <Filter>01. Manager\02. EditorMgr\GameObjectEx</Filter>
+    </ClCompile>
+    <ClCompile Include="CEditorCameraScript.cpp">
+      <Filter>01. Manager\02. EditorMgr\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>01. Manager\03. ImGuiMgr\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_demo.cpp">
+      <Filter>01. Manager\03. ImGuiMgr\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>01. Manager\03. ImGuiMgr\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx11.cpp">
+      <Filter>01. Manager\03. ImGuiMgr\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>01. Manager\03. ImGuiMgr\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_tables.cpp">
+      <Filter>01. Manager\03. ImGuiMgr\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>01. Manager\03. ImGuiMgr\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="CImGuiMgr.cpp">
+      <Filter>01. Manager\03. ImGuiMgr</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

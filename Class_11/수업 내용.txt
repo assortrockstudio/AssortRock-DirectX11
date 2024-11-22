@@ -1,0 +1,4 @@
+1. LevelChange 구현
+  - Level 에 상태값 추가 (LEVEL_STATE)
+
+2. EditorMgr 구현 예정

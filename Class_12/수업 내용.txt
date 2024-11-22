@@ -1,0 +1,8 @@
+1. EditorMgr 에 EditorCamera 구현
+  - RenderMgr 에서 Level 상태에 따라 어떤 카메라를 사용할지 분기처리하게 구현
+  - 기존 GameObject 의 finaltick 기능을 수정하기 위해서 GameObjectEx 클래스 추가
+  - 
+
+2. CTimeMgr 의 DT 값을 2개로 분할해야 함
+  - Content 용 DT
+  - System 용 DT
